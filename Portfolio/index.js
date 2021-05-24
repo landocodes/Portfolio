@@ -72,8 +72,3 @@ function reveal(){
   }
 }
 
-function resize() {
-  if ($(window).width() < 700) {
-    $('.sidebar').removeClass('sidebar')
-  }
-}

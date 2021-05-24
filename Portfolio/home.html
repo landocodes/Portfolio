@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 <script type="text/Javascript" src="index.js"></script>
@@ -20,7 +19,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-sm navbar-dark fixed-top justify-content-center">
     <div class="container-fluid ">
-      <a class="navbar-brand text-white" href="#"><span>Lando</span>Codes</a>
+      <a class="navbar-brand text-white" href="#home"><img src="images\1b722204548e4440b6da6cd548ae52c7.png" alt=""><span>Lando</span>Codes</a>
       <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -48,15 +47,15 @@
   
   <!-- home -->
   <span class="anchor" id="home"></span>
-  <header class="home reveal"  >
+  <section class="home "  >
     <div class="row">
       <div class="col-12">
-        <div class="container ">
-          <h3> Hello, I'm </h3>
+        <div class="container">
+          <h3 > Hello, I'm </h3>
           <h1>Orlando Blagrove.</h1>
           <div class="wrapper">
             <div class="text-static">
-              I'm a
+              And I'm a
             </div>
             <ul class="text-animated">
               <li><span>Web Developer</span></li>
@@ -67,7 +66,7 @@
           <div>
               <a href="#contact"><button class="hover">Contact Me</button></a>
             </div>
-            <div class="sidebar">
+            <div class="main">
             <ul >
               <li><a href="https://www.instagram.com/lando_codes/"><i class="fab fa-instagram"></i></a></li>
               <li><a href="https://twitter.com/lando_codes"><i class="fab fa-twitter"></i></a></li>
@@ -80,7 +79,7 @@
       </div>
         
     </div>
-  </header>
+  </section>
 
   
 
@@ -88,16 +87,15 @@
     
     <span class="anchor" id="about"></span>
     <section class="about">
-      <div class="container reveal">
+      <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h2>About Me</h2>
+            <h2 class="reveal">About Me</h2>
             <hr class="style">
           </div>
               <div class="col-lg-6 col-md-6 col-sm-6">
-                <p>
-                  I am a computer science student and a techie, which is how I came to learn to code. I eventually loved web development. I want to improve myself as much as I can, one step at a time.
-                <div class="skills">
+                <p class="reveal">
+                  I am a computer science student and a techie, which is how I became interested in learning to code. I eventually fell in love with web development. I want to better myself as much as possible, one step at a time. I also enjoy playing video games and watching anime.                <div class="skills reveal">
                   <h3 class="text-center">Skills</h3>
                   <hr>
                 <li>HTML5</li>
@@ -106,12 +104,13 @@
                 <li>Node JS</li>
                 <li>Python</li>
                 <li>Java</li>
+                <li>PHP</li>
                 <li>SQL</li>
                 <li>MONGO DB</li>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 ">
-              <img src="images\IMG_20171214_125857_204.jpg" alt="image of me">
+              <img class="reveal" src="images\IMG_20171214_125857_204.jpg" alt="image of me">
             </div>
             
             </div>
@@ -123,35 +122,35 @@
     <!-- Portfolio -->
     <span class="anchor" id="portfolio"></span>
     <section class="portfolio">
-      <div class="container reveal">
+      <div class="container ">
         <div class="row text-center">
           <div class="col-12">
-            <h2>Portfolio</h2>
+            <h2 class="reveal">Portfolio</h2>
             <hr>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="thumbnail img1"><img
+          <div class="thumbnail img1 reveal"><img
               src="images\screencapture-landocodes-github-io-Todo-todo-project-todo-html-2021-05-16-19_28_05.jpg">
           </div>
-          <div id="text">
+          <div class="reveal" id="text">
             A simple todo list application. You can add a todo, delete a todo or cross out a todo.
             Made with HTML5 CSS JAVASCRIPT. 
             
             <button class="btn btn-primary"><a href="https://github.com/landocodes/Todo/tree/main">source code</a></button>
-
-            <button class="btn btn-primary"><a href="https://landocodes.github.io/Todo/todo%20project/todo.html">live site</a></button>
+            
+            <button class="btn btn-primary"><a href="http://www.orlandoblagrove.com/Todo/">live site</a></button>
           </div>
          
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="thumbnail"><img
+          <div class="thumbnail reveal"><img
               src="images\front page.jpg">
           </div>
-          <div id="text">
+          <div class="reveal" id="text">
             Personal portfolio website. This is what you are looking at. Made with HTML5 CSS3 JAVASCRIPT
-            <button class="btn btn-primary">source code</button>
+            <button class="btn btn-primary"><a href="https://github.com/landocodes/Portfolio/tree/main/Portfolio">source code</a> </button>
           </div>
         </div>
         
@@ -168,15 +167,16 @@
     <section class="contact">
       <div class="container">
         <div class="row text-center">
-          <div class="col-12 reveal">
-            <h2>Contact</h2>
-            <h5>Get in touch</h5>
+          <div class="col-12">
+            <h2 class="reveal">Contact</h2>
+            <h5 class="reveal">Get in touch</h5>
             <hr>
-            <h4>Please do not hesitate to contact me, whether it is to discuss a project or just to say hello.</h4>
+            <h4 class="reveal">Please do not hesitate to contact me, whether it is to discuss a project or just to say hello.</h4>
             <div class="col-6 offset-3" >
             <div id="errormsg"></div>
-            <form class="form-dark" action="https://formsubmit.co/blagrove87@gmail.com" method="POST" onsubmit = "return validate();">
+            <form class="form-dark reveal" action="https://formsubmit.co/blagrove87@gmail.com" method="POST" onsubmit = "return validate();">
               <div class="mb-3">
+              <input type="hidden" name="_next" value="https://orlandoblagrove.com/thanks.html">
               <input class="form-control" type="text" name="name" id="name" placeholder="Name">
               </div>
               <div class="mb-3">
