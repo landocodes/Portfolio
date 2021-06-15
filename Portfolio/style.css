@@ -1,14 +1,10 @@
 *{
-  margin: 0;
-  padding: 0;
   scroll-behavior: smooth;
 
 }
 
 
 body {
-  width: 100%;
-  height: 100%;
   background-color: black;
  
 }
@@ -43,7 +39,7 @@ hr{
 }
 
 .navbar-brand span{
-  color: #1C106E ;
+  color: #421ADA;
 }
 
 .nav-link{
@@ -63,7 +59,6 @@ hr{
   right: 0;
   z-index: 10;
 } */
-
 
 .main li{
   font-size: 50px;
@@ -175,7 +170,8 @@ hr{
 
 /* about section */
 .about{
-  padding-top: 30px;
+  
+  padding: 30px;
   background-color: #0E0A18;
   color: whitesmoke;
 }
@@ -193,8 +189,6 @@ hr{
 }
   
  
-
-
 .about h2 {
   font-size: 5rem;
   justify-content: center;
@@ -264,13 +258,13 @@ a{
 
 /* contact section */
 .contact{
-  
   padding: 30px;
   background-color:#0E0A18;
 }
 
 .contact h2{
   font-size: 5rem;
+  padding-top: 30px;
   color: white;
 }
 
@@ -299,9 +293,7 @@ form{
 
 /* footer section */
 footer{
-
   height: auto;
-
   text-align: center;
   background-color: black;
 }
@@ -356,10 +348,7 @@ footer{
 
 @media only screen and (max-width: 768px) {
 
-  section{
-    width: 100vw;
-   
-  }
+  
  .home {
    background-position: center ;
   }
@@ -386,10 +375,7 @@ footer{
  
  @media only screen and (min-width: 768px) {
  
-   section{
-     width: 100vw;
-    
-   }
+  
   
   .home {
     background-position: center ;
